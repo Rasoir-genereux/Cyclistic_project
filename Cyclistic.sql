@@ -1,15 +1,7 @@
 SELECT *
 FROM Cyclistic.dbo.[All_2022]
 
-
-/*--POUR TROUVER LE NOMBRE DE COLONNES DANS UN TABLEAU--*/
-
---SELECT  COUNT (COLUMN_NAME) as NUMBER
---FROM INFORMATION_SCHEMA.COLUMNS
---where TABLE_NAME = '202212' 
-
-
-/* UNION STATEMENT: POUR FUSIONNER PLUSIEURS TABLEAUX DE MEME TYPE*/
+/* UNION STATEMENT: POUR FUSIONNER TOUTES LES DONNÃ‰ES DES 12 MOIS*/
 
 --SELECT *
 --INTO All_2022
@@ -77,7 +69,7 @@ FROM Cyclistic.dbo.[All_2022]
 --) AS All_2022
 
 
---Création d'une table temporaire
+--CrÃ©ation d'une table temporaire
 Select DATEDIFF(MINUTE, started_at, ended_at) as time_diff --Pour trouver le temps de chaque trajet en seconde
 FROM Cyclistic..All_2022
 --Pour trouver le temps de chaque trajet en minutes
@@ -96,8 +88,8 @@ FROM Cyclistic..All_2022
 GROUP BY member_casual
 
 
---Pour trouver la moyenne de temps d'utilisation du vélo par type de client par jour de la semaine
-WITH TEST_1 AS -- TEMP TABLE
+--Pour trouver la moyenne de temps d'utilisation du vÃ©lo par type de client par jour de la semaine
+WITH TEST_1 AS -- TABLE TEMPORAIRE
 (
 SELECT weekday, member_casual,
 AVG (DATEDIFF(MINUTE, started_at, ended_at)) AS avg_minutes --Pour trouver le temps de chaque trajet en minutes
@@ -122,7 +114,7 @@ FROM TEST_1
 ORDER BY weekday
 
 
---Pour trouver la moyenne de temps d'utilisation du vélo par type de client par mois
+--Pour trouver la moyenne de temps d'utilisation du vÃ©lo par type de client par mois
 --Pour trouver le mois-jour-minute, on peut aussi utiliser DATEPART(MONTH, la colonne) OU DATEDIFF(MONTH, Colonne_1, Colonne_2) OU MONTH(colonne)
 WITH TEST_2 AS(
 SELECT MONTH(started_at) AS S_month, member_casual,
@@ -157,7 +149,7 @@ FROM Cyclistic..All_2022
 GROUP BY member_casual
 
 
--- Pour trouver les types de vélo utilité par type de client
+-- Pour trouver les types de vÃ©lo utilitÃ© par type de client
 SELECT member_casual, rideable_type, COUNT(rideable_type) AS type
 FROM Cyclistic..All_2022
 GROUP BY member_casual, rideable_type
@@ -169,14 +161,14 @@ FROM Cyclistic..All_2022
 GROUP BY member_casual
 HAVING member_casual IS NOT NULL
 
---Pour trouver le type de vélo utilité par jour de la semaine par type de client
+--Pour trouver le type de vÃ©lo utilitÃ© par jour de la semaine par type de client
 SELECT weekday, member_casual, rideable_type, COUNT(rideable_type) AS type
 FROM Cyclistic..All_2022
 GROUP BY weekday, member_casual, rideable_type
 HAVING member_casual IS NOT NULL
 ORDER BY weekday, member_casual
 
---Pour trouver le type de vélo utilité par mois par type de client
+--Pour trouver le type de vÃ©lo utilitÃ© par mois par type de client
 SELECT MONTH(started_at) AS S_month,
 (CASE 
 	WHEN MONTH(started_at) = 1 THEN 'January'
@@ -206,7 +198,7 @@ SELECT member_casual, SUM (DATEDIFF(MINUTE, started_at, ended_at))
 FROM Cyclistic..All_2022
 GROUP BY member_casual
 
---Pour trouver la localisation des type de client (trop de données pour Excel)
+--Pour trouver la localisation des type de client (trop de donnÃ©es pour Excel)
 SELECT member_casual, rideable_type start_lat, start_lng, end_lat, end_lng
 FROM Cyclistic..All_2022
 

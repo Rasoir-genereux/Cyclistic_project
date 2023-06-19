@@ -41,7 +41,8 @@ While querying the data in SQL we had to convert the ride_length column into min
 We also had to convert the started_at column in month or day of the week in order to know the frequency of use by type of client.
 We discovered that although members are greater than casual riders, casual clients use the service more than members do. 
 To sum up, it is a good idea to convert casual riders into annual member since they spend more time riding on our bikes,
-they can save time and money by having a membership.
+they can save time and money by having a membership.<br>
+For more details, please read the  [SQL file](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql)
 
 ### Share
 Let’s share our findings with the rest of the marketing analytics team including our manager.
@@ -63,7 +64,9 @@ Therefore, they use the bikes more frequently than casual riders.
 In the other hand, Casual riders use the bikes on weekends and they spend more time riding than members.
 It’s could because they don’t have a specific place to go. Finally, only casual riders use docked bike. 
 These findings show that casual members only want to use the bikes for a limited time on weekends. 
-So the advertising could be done in a way that makes the membership customized the casual riders for a period like in summer.
+So the advertising could be done in a way that makes the membership customized the casual riders for a period like in summer.<br>
+
+
 
 
 

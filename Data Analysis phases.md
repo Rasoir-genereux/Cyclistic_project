@@ -29,12 +29,12 @@ In regards to their level in the company, they should have a busy schedule.
 Therefore, our visualization should be concise and easy to understand.
 The next lines are the visualisation that could be displayed on the presentation
 
-1-Viz on the number of ride by client type
-2-Viz on the AVG time of ride length by client type
-3-Viz on the rideable type used by the riders each weekday
-4- Viz on the AVG time of ride length by client type each weekday
-5- Viz on the AVG time of ride length by client type each month
-6- Viz on the rideable type used by the riders by month
+1. Viz on the number of ride by client type
+2. Viz on the AVG time of ride length by client type
+3. Viz on the rideable type used by the riders each weekday
+4. Viz on the AVG time of ride length by client type each weekday
+5. Viz on the AVG time of ride length by client type each month
+6. Viz on the rideable type used by the riders by month
 
 ## Act
 After creating and looking at the visualizations, we come theses conclusion:

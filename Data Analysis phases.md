@@ -1,5 +1,5 @@
 ## Data analyis phases 
-#Prepare
+# Prepare
 The  Cyclistic data is an open source data located on the company’s website and is a structured data.
 As the data is owned by the City of Chicago and the company is an ownership of the City, it is a first party data.
 In fact, even if it is made available to the public by Motivational International,

@@ -1,5 +1,5 @@
 Exploring and finding insights from a bike company dataset.<br>
-Here is the link of the [repository](https://github.com/Rasoir-genereux/Data-analysis-project_1)
+Here is the link of the [github repository](https://github.com/Rasoir-genereux/Data-analysis-project_1)
 
 ## Introduction
 This project is an entry level project which is about helping a bike company marketing analyics team to create retrieve insights from the 2022 dataset.

@@ -23,9 +23,11 @@ Here are the [data analysis](https://github.com/Rasoir-genereux/Data-analysis-pr
 
 ## Dashboard
 To make the findings easy to understand, [here](https://github.com/Rasoir-genereux/Data-analysis-project_1/tree/main/Dashboard) are the visualisations made based on the SQL queries.<br>
-[Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 datase.t<br>
+[Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 dataset.<br>
+
 
 ![](/Dashboard/Dashboard.png)
+This dashboard is also hosted on [Tableau](https://public.tableau.com/app/profile/kevin.tonou.ewa/viz/Cyclistic_16870653006730/Dashboard1#1)
 
 ## Findings
 After creating and looking at the visualizations, we come theses conclusion: Members use the bikes mostly in office days,

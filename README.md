@@ -22,8 +22,8 @@ users to spend one unique subscription instead of multiple payments. <br>
 Here are the [data analysis](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Data%20Analysis%20phases.md) phases in details
 
 ## Dashboard
-To make the findings easy to understand, [here](https://github.com/Rasoir-genereux/Data-analysis-project_1/tree/main/Dashboard) are the visualisations made based on the SQL queries
-[Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 dataset
+To make the findings easy to understand, [here](https://github.com/Rasoir-genereux/Data-analysis-project_1/tree/main/Dashboard) are the visualisations made based on the SQL queries.<br>
+[Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 datase.t<br>
 
 ![](/Dashboard/Dashboard.png)
 

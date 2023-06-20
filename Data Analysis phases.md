@@ -1,18 +1,18 @@
 # Data analysis phases 
 ## Prepare
-The  Cyclistic data is an open source data located on the company’s website and is a structured data.
+The  data is an open source data located on the company’s [website](https://divvy-tripdata.s3.amazonaws.com/index.html) and is a structured data.
 As the data is owned by the City of Chicago and the company is an ownership of the City, it is a first party data.
-In fact, even if it is made available to the public by Motivational International,
-the fact that we can download it directly from the company’s website and read the legal terms make it ROCCC.
+The dataset is made available to the public by Motivational International. 
+However the fact that it was gathered directly from the company's clients and we can have access to the [license](https://ride.divvybikes.com/data-license-agreement) make it ROCCC.<br>
 For the purpose of this analysis, the data of the entire year of 2022 is used.
-The data is relevant to our analysis, since the variable show the habits of the type of clients.
-The thing that is noticeable right away is the inconsistency of the data type of start_station_id and end_station_id. 
+The data is relevant to our analysis, since the variable show the habits of the differents type of clients.
+One thing that is noticeable right away is the inconsistency of the data type of the variable *start_station_id* and *end_station_id*. 
 
 ## Process
-The dataset is available on the company’s website. Each month has more than 100000 rows.
+The dataset is available on the company’s [website](https://divvy-tripdata.s3.amazonaws.com/index.html). Each month has more than 100000 rows.<br>
 For it is an analysis that will require to combine those 12 monthly dataset together, it is convenient to use SQL to retrieve our requests.
-The dataset in full of NULL. But overall, the dates are in consistent format, the primary keys are unique, the rideable bike column and member 
-columns respects their constraints.
+The dataset is full of NULL. But overall, the dates are in consistent format, the primary keys are unique, the rideable bike column and member 
+columns respect their constraints.
 Nevertheless, they are some NULL in the member_casual column.
 
 

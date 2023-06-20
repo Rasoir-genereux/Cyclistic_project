@@ -21,7 +21,8 @@ While querying the data in SQL we had to convert the ride_length column into min
 We also had to convert the started_at column in month or day of the week in order to know the frequency of use by type of client.
 We discovered that although members are greater than casual riders, casual clients use the service more than members do. 
 To sum up, it is a good idea to convert casual riders into annual member since they spend more time riding on our bikes,
-they can save time and money by having a membership.
+they can save time and money by having a membership. <br>
+Here are the [queries](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) used to retrieve the data
 
 ## Share
 Let’s share our findings with the rest of the marketing analytics team including our manager.

@@ -21,12 +21,19 @@ users to spend one unique subscription instead of multiple payments. <br>
 ## Data analysis phases
 Here are the [data analysis](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Data%20Analysis%20phases.md) phases in details
 
+## Dashboard
+To make the findings easy to understand, [here](https://github.com/Rasoir-genereux/Data-analysis-project_1/tree/main/Dashboard) are the visualisations made based on the SQL queries
+[Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 dataset
+
+![/Dashboard](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Dashboard/Dashboard.png)
+
 ## Findings
 After creating and looking at the visualizations, we come theses conclusion: Members use the bikes mostly in office days,
 probably to commute to work. Therefore, they use the bikes more frequently than casual riders. In the other hand,
 Casual riders use the bikes on weekends and they spend more time riding than members.
 It’s could because they don’t have a specific place to go. Finally, only casual riders use docked bike. 
 These findings show that casual members only want to use the bikes for a limited time on weekends.
+
 
 
 

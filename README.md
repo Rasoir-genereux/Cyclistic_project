@@ -31,8 +31,12 @@ To make the findings easy to understand, [here](https://github.com/Rasoir-genere
 After creating and looking at the visualizations, we come theses conclusion: Members use the bikes mostly in office days,
 probably to commute to work. Therefore, they use the bikes more frequently than casual riders. In the other hand,
 Casual riders use the bikes on weekends and they spend more time riding than members.
-It’s could because they don’t have a specific place to go. Finally, only casual riders use docked bike. 
+It’s could because that they don’t have a specific place to go. Finally, only casual riders use docked bike. 
 These findings show that casual members only want to use the bikes for a limited time on weekends.
+
+## Recommendations
+These findings show that casual members only want to use the bikes for a limited time on weekends.<br>
+So the advertising could be done in a way that makes the membership customized the casual riders for a period like in summer.
 
 
 

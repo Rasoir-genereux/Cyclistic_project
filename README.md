@@ -13,7 +13,7 @@ clients into annual members.<br>
 In conclusion, for this project our business task is to answer to the question " How do annual members and casual riders use Cyclistic bikes diﬀerently?"
 
 ## Business task
-In the business task, we are trying to compare the Cyclistic member’s habits with the casual riders’ ones. 
+In the business task, we are trying to compare the member’s habits with the casual riders’ ones. 
 It can be in term of average time spent on the bikes, average time of the day of most users, average period days of the week most riding. 
 Based on the data we found, the marketing team can use those data in their advertising in order to convince the casual
 users to spend one unique subscription instead of multiple payments. <br>

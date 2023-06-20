@@ -25,7 +25,7 @@ Here are the [data analysis](https://github.com/Rasoir-genereux/Data-analysis-pr
 To make the findings easy to understand, [here](https://github.com/Rasoir-genereux/Data-analysis-project_1/tree/main/Dashboard) are the visualisations made based on the SQL queries
 [Here](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Queries.sql) are the data retrieved from SQL based on the 2022 dataset
 
-![/Dashboard](https://github.com/Rasoir-genereux/Data-analysis-project_1/blob/main/Dashboard/Dashboard.png)
+![](/Dashboard/Dashboard.png)
 
 ## Findings
 After creating and looking at the visualizations, we come theses conclusion: Members use the bikes mostly in office days,

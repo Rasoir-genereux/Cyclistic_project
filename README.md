@@ -40,6 +40,8 @@ These findings show that casual members only want to use the bikes for a limited
 These findings show that casual members only want to use the bikes for a limited time on weekends.<br>
 So the advertising could be done in a way that makes the membership customized the casual riders for a period like in summer.
 
+## Other Projects
+[WHO WORK IN THE TECH INDUSTRY ?](https://rasoir-genereux.github.io/POWER_BI_1/)
 
 
 
